@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.common {
+    elements {
+            sharebuttons {
+                iconIdentifier = tx_altaahsharebuttons_sharebuttons
+                title = LLL:EXT:altaahsharebuttons/Resources/Private/Language/locallang_db_new_content_el.xlf:wizards.newContentElement.sharebuttons_title
+                description = LLL:EXT:altaahsharebuttons/Resources/Private/Language/locallang_db_new_content_el.xlf:wizards.newContentElement.sharebuttons_description
+                tt_content_defValues {
+                    CType = altaahsharebuttons_sharebuttons
+                }
+            }
+    }
+    show := addToList(sharebuttons)
+}

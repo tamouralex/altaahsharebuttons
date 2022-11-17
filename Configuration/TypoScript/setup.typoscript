@@ -1,0 +1,52 @@
+tt_content.altaahsharebuttons_sharebuttons = FLUIDTEMPLATE
+tt_content.altaahsharebuttons_sharebuttons {
+    layoutRootPaths.0 = EXT:altaahsharebuttons/Resources/Private/Layouts/
+    layoutRootPaths.10 = {$plugin.tx_altaahsharebuttons.view.layoutRootPath}
+    partialRootPaths.0 = EXT:altaahsharebuttons/Resources/Private/Partials/
+    partialRootPaths.10 = {$plugin.tx_altaahsharebuttons.view.partialRootPath}
+    templateRootPaths.0 = EXT:altaahsharebuttons/Resources/Private/Templates/Content/
+    templateRootPaths.10 = {$plugin.tx_altaahsharebuttons.view.templateRootPath}
+    templateName = Sharebuttons
+}
+
+
+
+##################
+#### INCLUDES ####
+##################
+
+page {
+
+    includeCSS {
+        fontalls = EXT:altaahsharebuttons/Resources/Public/Css/fontawesome/css/all.css
+        fontalls.if.equals = 1
+        fontalls.if.value = {$incfontshariff}
+        sharifs = EXT:altaahsharebuttons/Resources/Public/Css/Shariff/shariff.min.css
+        sharifs.if.equals = 1
+        sharifs.if.value = {$inccssshariff} 
+        sharifs.media = all
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+        jquerys = EXT:altaahsharebuttons/Resources/Public/JavaScript/jquery.min.js
+        jquerys.if.equals = 1
+        jquerys.if.value = {$incjqshariff}        
+    }
+    
+    includeJSFooter { 
+        sharifjss = EXT:altaahsharebuttons/Resources/Public/JavaScript/Shariff/shariff.min.js
+        sharifjss.if.equals = 1
+        sharifjss.if.value = {$incjsshariff}        
+    }
+
+}
+tt_content.altaahsharebuttons_sharebuttons {
+    settings {
+        defaultHeaderType = 2
+        }
+}

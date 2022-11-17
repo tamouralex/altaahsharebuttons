@@ -1,0 +1,350 @@
+{
+    "tt_content": {
+        "elements": {
+            "sharebuttons": {
+                "color": "#000000",
+                "colorOverlay": "#000000",
+                "columns": [
+                    "tx_mask_dataservices",
+                    "tx_mask_databuttonstyle",
+                    "tx_mask_datatheme",
+                    "tx_mask_dataorientation",
+                    "tx_mask_databackendurl",
+                    "tx_mask_dataflattrcategory",
+                    "tx_mask_dataflattruser",
+                    "tx_mask_datainfourl",
+                    "tx_mask_datainfodisplay",
+                    "tx_mask_datalang",
+                    "tx_mask_datamailbody",
+                    "tx_mask_datamailsubject",
+                    "tx_mask_datamailurl",
+                    "tx_mask_datamediaurl",
+                    "tx_mask_datareferrertrack",
+                    "tx_mask_datatitle",
+                    "tx_mask_datatwittervia",
+                    "tx_mask_dataurl"
+                ],
+                "description": "",
+                "descriptions": [
+                    "An entity-encoded JSON string containing an array of service names to be enabled. Example: data-services=\"[&quot;facebook&quot;,&quot;twitter&quot;]\" Available service names: twitter, facebook, linkedin, pinterest, xing, whatsapp, mail, info, addthis, tumblr, flattr, diaspora, reddit, stumbleupon, threema, weibo, tencent-weibo, qzone, print, telegram, vk, flipboard, pocket, buffer",
+                    "ow to display the buttons. Values: standard, icon, icon-count. With icon only the icon is shown, with icon-count icon and counter and with standard icon, text and counter are shown, depending on the display size.",
+                    "We include 3 color schemes, standard, grey and white.",
+                    "vertical will stack the buttons vertically.",
+                    "The path to your Shariff backend, see below. Setting the value to null disables the backend feature. No counts will occur.",
+                    "Category to be used for Flattr.",
+                    "User that receives Flattr donation.",
+                    "URL of the info page.",
+                    "How to display the info page. Values: blank, popup, self.",
+                    "The localisation to use. Available: bg, cs, da, de, en, es, fi, fr, hr, hu, it, ja, ko, nl, no, pl, pt, ro, ru, sk, sl, sr, sv, tr, zh",
+                    "If a mailto: link is used in data-mail-url, then this value is used as the mail body. The body text should contain the placeholder {url} which will be replaced with the share URL.",
+                    "If a mailto: link is used in data-mail-url, then this value is used as the mail subject.",
+                    "The url target used for the mail service button",
+                    "Media url to be shared (pinterest)",
+                    "A string that will be appended to the share url. Can be disabled using null.",
+                    "Title to be used as share text in Twitter\/Whatsapp",
+                    "Screen name of the user to attribute the Tweet to",
+                    "The canonical URL of the page to check"
+                ],
+                "icon": "fa-asterisk",
+                "iconOverlay": "",
+                "key": "sharebuttons",
+                "label": "Sharebuttons",
+                "labels": [
+                    "data-services",
+                    "data-button-style",
+                    "data-theme",
+                    "data-orientation",
+                    "data-backend-url",
+                    "data-flattr-category",
+                    "data-flattr-user",
+                    "data-info-url",
+                    "data-info-display",
+                    "data-lang",
+                    "data-mail-body",
+                    "data-mail-subject",
+                    "data-mail-url",
+                    "data-media-url",
+                    "data-referrer-track",
+                    "data-title",
+                    "data-twitter-via",
+                    "data-url"
+                ],
+                "shortLabel": "",
+                "sorting": 2
+            }
+        },
+        "palettes": {
+            "tx_mask_2590b2d82096d8": {
+                "description": "",
+                "label": "pallettetest",
+                "showitem": [
+                    "subheader"
+                ]
+            }
+        },
+        "sql": {
+            "tx_mask_databackendurl": {
+                "tt_content": {
+                    "tx_mask_databackendurl": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_databuttonstyle": {
+                "tt_content": {
+                    "tx_mask_databuttonstyle": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_dataflattrcategory": {
+                "tt_content": {
+                    "tx_mask_dataflattrcategory": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_dataflattruser": {
+                "tt_content": {
+                    "tx_mask_dataflattruser": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_datainfodisplay": {
+                "tt_content": {
+                    "tx_mask_datainfodisplay": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_datainfourl": {
+                "tt_content": {
+                    "tx_mask_datainfourl": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_datalang": {
+                "tt_content": {
+                    "tx_mask_datalang": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_datamailbody": {
+                "tt_content": {
+                    "tx_mask_datamailbody": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_datamailsubject": {
+                "tt_content": {
+                    "tx_mask_datamailsubject": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_datamailurl": {
+                "tt_content": {
+                    "tx_mask_datamailurl": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_datamediaurl": {
+                "tt_content": {
+                    "tx_mask_datamediaurl": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_dataorientation": {
+                "tt_content": {
+                    "tx_mask_dataorientation": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_datareferrertrack": {
+                "tt_content": {
+                    "tx_mask_datareferrertrack": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_dataservices": {
+                "tt_content": {
+                    "tx_mask_dataservices": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_datatheme": {
+                "tt_content": {
+                    "tx_mask_datatheme": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_datatitle": {
+                "tt_content": {
+                    "tx_mask_datatitle": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_datatwittervia": {
+                "tt_content": {
+                    "tx_mask_datatwittervia": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            },
+            "tx_mask_dataurl": {
+                "tt_content": {
+                    "tx_mask_dataurl": "varchar(255) DEFAULT '' NOT NULL"
+                }
+            }
+        },
+        "tca": {
+            "tx_mask_databackendurl": {
+                "config": {
+                    "default": "null",
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_databackendurl",
+                "key": "databackendurl",
+                "type": "string"
+            },
+            "tx_mask_databuttonstyle": {
+                "config": {
+                    "default": "standard",
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_databuttonstyle",
+                "key": "databuttonstyle",
+                "type": "string"
+            },
+            "tx_mask_dataflattrcategory": {
+                "config": {
+                    "default": "null",
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_dataflattrcategory",
+                "key": "dataflattrcategory",
+                "type": "string"
+            },
+            "tx_mask_dataflattruser": {
+                "config": {
+                    "default": "null",
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_dataflattruser",
+                "key": "dataflattruser",
+                "type": "string"
+            },
+            "tx_mask_datainfodisplay": {
+                "config": {
+                    "default": "blank",
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_datainfodisplay",
+                "key": "datainfodisplay",
+                "type": "string"
+            },
+            "tx_mask_datainfourl": {
+                "config": {
+                    "default": "http:\/\/ct.de\/-2467514",
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_datainfourl",
+                "key": "datainfourl",
+                "type": "string"
+            },
+            "tx_mask_datalang": {
+                "config": {
+                    "default": "de",
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_datalang",
+                "key": "datalang",
+                "type": "string"
+            },
+            "tx_mask_datamailbody": {
+                "config": {
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_datamailbody",
+                "key": "datamailbody",
+                "type": "string"
+            },
+            "tx_mask_datamailsubject": {
+                "config": {
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_datamailsubject",
+                "key": "datamailsubject",
+                "type": "string"
+            },
+            "tx_mask_datamailurl": {
+                "config": {
+                    "default": "?view=mail",
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_datamailurl",
+                "key": "datamailurl",
+                "type": "string"
+            },
+            "tx_mask_datamediaurl": {
+                "config": {
+                    "default": "null",
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_datamediaurl",
+                "key": "datamediaurl",
+                "type": "string"
+            },
+            "tx_mask_dataorientation": {
+                "config": {
+                    "default": "horizontal",
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_dataorientation",
+                "key": "dataorientation",
+                "type": "string"
+            },
+            "tx_mask_datareferrertrack": {
+                "config": {
+                    "default": "null",
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_datareferrertrack",
+                "key": "datareferrertrack",
+                "type": "string"
+            },
+            "tx_mask_dataservices": {
+                "config": {
+                    "default": "twitter, facebook, info",
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_dataservices",
+                "key": "dataservices",
+                "type": "string"
+            },
+            "tx_mask_datatheme": {
+                "config": {
+                    "default": "standard",
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_datatheme",
+                "key": "datatheme",
+                "type": "string"
+            },
+            "tx_mask_datatitle": {
+                "config": {
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_datatitle",
+                "key": "datatitle",
+                "type": "string"
+            },
+            "tx_mask_datatwittervia": {
+                "config": {
+                    "default": "null",
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_datatwittervia",
+                "key": "datatwittervia",
+                "type": "string"
+            },
+            "tx_mask_dataurl": {
+                "config": {
+                    "type": "input"
+                },
+                "fullKey": "tx_mask_dataurl",
+                "key": "dataurl",
+                "type": "string"
+            }
+        }
+    },
+    "mask_export": {
+        "elements": {
+            "configuration": {
+                "key": "configuration",
+                "label": "altaahsharebuttons",
+                "shortLabel": "Altaah",
+                "columns": [
+                    "sharebuttons"
+                ]
+            }
+        }
+    }
+}

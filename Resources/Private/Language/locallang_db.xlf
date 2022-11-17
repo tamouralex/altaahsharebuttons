@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2022-11-15T05:37:04+01:00" product-name="altaahsharebuttons">
+    <header/>
+    <body>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_databackendurl">
+        <source>data-backend-url</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_databuttonstyle">
+        <source>data-button-style</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_dataflattrcategory">
+        <source>data-flattr-category</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_dataflattruser">
+        <source>data-flattr-user</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_datainfodisplay">
+        <source>data-info-display</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_datainfourl">
+        <source>data-info-url</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_datalang">
+        <source>data-lang</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_datamailbody">
+        <source>data-mail-body</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_datamailsubject">
+        <source>data-mail-subject</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_datamailurl">
+        <source>data-mail-url</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_datamediaurl">
+        <source>data-media-url</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_dataorientation">
+        <source>data-orientation</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_datareferrertrack">
+        <source>data-referrer-track</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_dataservices">
+        <source>data-services</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_datatheme">
+        <source>data-theme</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_datatitle">
+        <source>data-title</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_datatwittervia">
+        <source>data-twitter-via</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahsharebuttons_dataurl">
+        <source>data-url</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.div._altaahsharebuttons_">
+        <source>altaahsharebuttons</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.altaahsharebuttons_sharebuttons">
+        <source>Sharebuttons</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

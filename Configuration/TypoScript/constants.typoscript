@@ -1,0 +1,27 @@
+# customcategory=altaahsharebuttons=Altaahsharebuttons
+
+
+# cat=altaahsharebuttons/file; type=string; label=Path to template root (FE)
+plugin.tx_altaahsharebuttons.view.templateRootPath =
+
+# cat=altaahsharebuttons/file; type=string; label=Path to template partials (FE)
+plugin.tx_altaahsharebuttons.view.partialRootPath = EXT:altaah1package/Resources/Private/Partials/ContentElements/
+
+# cat=altaahsharebuttons/file; type=string; label=Path to template layouts (FE)
+plugin.tx_altaahsharebuttons.view.layoutRootPath = EXT:altaah1package/Resources/Private/Layouts/ContentElements/
+
+
+# cat=altaahsharebuttons//a; type=boolean; label=Include Jquery
+incjqshariff = 
+
+# cat=altaahsharebuttons//b; type=boolean; label=Include ShariffJs
+incjsshariff = 
+
+# cat=altaahsharebuttons//c; type=boolean; label=Include FontawesomeCss
+incfontshariff = 
+
+# cat=altaahsharebuttons//d; type=boolean; label=Include SharifCss
+inccssshariff = 
+
+
+

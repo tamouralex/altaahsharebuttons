@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2022-11-15T05:37:04+01:00" product-name="altaahsharebuttons">
+    <header/>
+    <body>
+      <trans-unit id="wizards.newContentElement.sharebuttons_title">
+        <source>Sharebuttons</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.sharebuttons_description">
+        <source></source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

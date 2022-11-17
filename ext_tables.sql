@@ -1,0 +1,20 @@
+CREATE TABLE tt_content (
+    tx_altaahsharebuttons_databackendurl varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_databuttonstyle varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_dataflattrcategory varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_dataflattruser varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_datainfodisplay varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_datainfourl varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_datalang varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_datamailbody varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_datamailsubject varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_datamailurl varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_datamediaurl varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_dataorientation varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_datareferrertrack varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_dataservices varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_datatheme varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_datatitle varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_datatwittervia varchar(255) DEFAULT '' NOT NULL,
+    tx_altaahsharebuttons_dataurl varchar(255) DEFAULT '' NOT NULL
+);
